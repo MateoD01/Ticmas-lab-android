@@ -1,0 +1,51 @@
+<!-- activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:hint="@string/texto_1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="200dp"
+        android:background="@color/paraTextos" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:hint="@string/texto_2"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="200dp"
+        android:background="@color/paraTextos"/>
+
+    <Button
+        android:id="@+id/compareButton"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/paraBoton"
+        android:text="@string/comparar"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="@color/teal_200"/>
+</LinearLayout>
